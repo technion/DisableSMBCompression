@@ -1,0 +1,20 @@
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+  <displayName>MSS (Legacy)</displayName>
+  <description>SMB Compression Support</description>
+  <resources>
+    <stringTable>
+      <string id="SMBComp">SMB Compression Support</string>
+
+      <string id="DisableCompression">Disables SMB Compression</string>
+      <string id="DisableCompression_Help">Disables SMB Compression</string>
+
+      <string id="Enabled">Prevents SMB Compression from being used</string>
+      <string id="Disabled">Allows SMB Compression (default)</string>
+    </stringTable>
+      <presentationTable>
+          <presentation id="SMBCompdropdown">
+              <dropdownList refId="SMBCompdropdown" noSort="true" defaultItem="0">Configure SMB Compression</dropdownList>
+          </presentation>
+      </presentationTable>
+  </resources>
+</policyDefinitionResources>
