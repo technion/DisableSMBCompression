@@ -22,6 +22,9 @@ I highly recommend only applying this to Windows 10 machines, assuming most user
 
 The majority of environments don't appear to be running SMB compression in practice, but please consider whether this is suitable to you.
 
+# Limitations
+Nothing described as a "mitigation" should be considered a complete fix. Please roll patches as soon as they are out. This change disables compression on the local SMB server, where Microsoft's guide appears to suggest this can still be exploited to attack the client. See Microsoft's guide for further information.
+
 # References:
 https://www.bleepingcomputer.com/news/security/microsoft-leaks-info-on-wormable-windows-smbv3-cve-2020-0796-flaw/
 https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200005
