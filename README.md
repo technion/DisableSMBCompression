@@ -17,6 +17,11 @@ Under "Administrative Templates", find the new "SMB Compression Support" setting
 
 ![ADMX Template](https://github.com/technion/DisableSMBCompression/raw/master/SMBadmx.jpg)
 
+# Applicability
+I highly recommend only applying this to Windows 10 machines, assuming most users aren't running the vulnerable Windows 2019 SAC edition. As always, please test a small group before a larger deployment.
+
+The majority of environments don't appear to be running SMB compression in practice, but please consider whether this is suitable to you.
+
 # References:
 https://www.bleepingcomputer.com/news/security/microsoft-leaks-info-on-wormable-windows-smbv3-cve-2020-0796-flaw/
 https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200005
